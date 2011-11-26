@@ -1,4 +1,4 @@
-Zpov�dnice.cz Enhancement Suite
+﻿Zpovědnice.cz Enhancement Suite
 -------------------------------
 
 Bla bla bla...
