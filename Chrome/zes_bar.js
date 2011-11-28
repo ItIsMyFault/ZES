@@ -197,9 +197,17 @@ function ChatBarClass()
 		
 		html += "<ul>";
 		
+		usersArray.sort(function(a, b)
+		{
+			if (a.name == b.name) return 0;
+			
+			return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1;
+		});
+		
 		for (var i = 0; i < usersArray.length; ++i)
 		{
 			html += '<a href="javascript:void();" userID="' + usersArray[i].id.toString() + '" class="onlineUser"><li>';
+			html += '<img src="' + chrome.extension.getURL("icon_green.png") + '" />&nbsp;';
 			html += usersArray[i].name;
 			html += '</li></a>';
 		}
