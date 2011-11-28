@@ -1,9 +1,4 @@
-﻿String.prototype.trim = function()
-{
-    return this.replace(/^\s*/, "").replace(/\s*$/, "");
-}
-
-function replaceConfLinks(text)
+﻿function replaceConfLinks(text)
 {
 	return text.replace(/\b(\d{6})\b/g, '<a class="confLink" target="_blank" href="detail.php?statusik=$1">$1</a>');
 }

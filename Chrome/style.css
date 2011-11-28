@@ -675,3 +675,127 @@ a.reactor, a.reactor:visited
 {
     border: 1px solid #FFF !important;
 }
+
+#bottomChatBar
+{
+	position: fixed;
+	bottom: 0px;
+	width: 950px;
+	background: #123;
+	border: 1px solid #678;
+	text-align: right;
+	padding: 0px 0px 8px 0px;
+	box-shadow: 0px 0px 16px #000000;
+	overflow: visible;
+}
+
+.chatBarContainer
+{
+	display: inline;
+	overflow: visible;
+}
+
+.chatBarButton
+{
+	position: relative;
+	background-color: #345;
+	top: 4px;
+	padding: 3px;
+
+    font-family: "Tahoma";
+    font-size: 13px;
+	
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.chatBarButton:hover
+{
+	background-color: #789;
+}
+
+.chatBarButton img
+{
+	position: relative;
+	top: 2px;
+}
+
+.chatBarButton img:hover
+{
+	box-shadow: 0px 0px 16px #000;
+}
+
+.chatBarPanel
+{
+    font-family: "Tahoma";
+    font-size: 13px;
+	
+	width: 200px;
+	border: 1px solid #678;
+
+	position: fixed;
+	bottom: 26px;
+	
+	background-color: #222;
+	color: #000;
+	text-align: left;
+	padding: 1px;
+	
+	box-shadow: 0px 0px 8px #000;
+}
+
+.chatBarPanel title
+{
+	display: block;
+	
+	background-color: #789;
+	border-bottom: 1px solid #678;
+	
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	color: #FFF;
+
+    font-family: "Tahoma";
+    font-size: 13px;
+	padding: 3px;
+}
+
+.chatBarPanel ul
+{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.chatBarPanel ul li
+{
+	display: block;
+	list-style: none;
+	padding: 3px;
+	
+    font-family: "Tahoma";
+    font-size: 11px;
+}
+
+.chatBarPanel ul li:hover
+{
+	background-color: #678;
+}
+
+.chatBarPanel input
+{
+	width: 100%;
+
+    font-family: "Tahoma";
+    font-size: 11px;
+	font-weight: normal;
+}
+
+.chatBarPanel .content
+{
+	max-height: 600px;
+	overflow: auto;
+}
+

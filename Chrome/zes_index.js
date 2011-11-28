@@ -19,5 +19,6 @@
 $(document).ready(function()
 {
 	init();
+	initBar();
 	removeAdBlocks();
 });

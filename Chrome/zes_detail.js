@@ -57,6 +57,7 @@ document.addEventListener("beforeload", function(event)
 $(document).ready(function()
 {
 	init();
+	initBar();
 
 	var confession = extractConfession();
 	var absolutions = extractAbsolutions();

@@ -2,8 +2,8 @@
 	"name": "Zpovednice.cz Enhancement Suite",
 	"version": "0.1",
 	"description": "Zpovednice.cz Enhancement Suite - sada rozšiřujících funkcí pro Zpovědnici",
-	"options_page": "options.html",
 	"update_url": "http://www.vykricnik.net/zes_update.xml",
+	"background_page": "background.html",
 	"permissions":
 	[
 		"http://www.zpovednice.cz/",
@@ -14,13 +14,13 @@
 		{
 			"matches": [ "http://*.zpovednice.cz/", "http://*.zpovednice.cz/index.php*" ],
 			"css": [ "style.css", "style_index.css" ],
-			"js": [ "jquery.js", "jquery-ui.js", "zes.js", "zes_index.js" ]
+			"js": [ "jquery.js", "jquery-ui.js", "utils.js", "zes.js", "zes_bar.js", "zes_index.js" ]
 		},
 		
 		{
 			"matches": [ "http://*.zpovednice.cz/detail.php*" ],
 			"css": [ "style.css", "style_detail.css" ],
-			"js": [ "jquery.js", "jquery-ui.js", "zes.js", "zes_detail.js" ]
+			"js": [ "jquery.js", "jquery-ui.js", "utils.js", "zes.js", "zes_bar.js", "zes_detail.js" ]
 		}
 	]
 }
