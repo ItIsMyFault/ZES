@@ -1,4 +1,4 @@
-﻿// Global chat bar instance
+// Global chat bar instance
 var ChatBar = null;
 
 function ChatBarPanelClass(chatBarParent)
@@ -67,7 +67,10 @@ function ChatBarPanelClass(chatBarParent)
 		this.node.append('<div class="chatBarPanel"><title></title><div class="content"></div></div>');
 		
 		this.buttonNode = $("a.chatBarButton", this.node);
+        
 		this.panelNode = $("div.chatBarPanel", this.node);
+        this.panelNode.hide();
+        
 		this.contentNode = $("div.content", this.panelNode);
 		
 		titleNode = $("title", this.panelNode);
